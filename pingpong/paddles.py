@@ -48,7 +48,7 @@ class Paddle:
         self.paddle1.speed(0)
         self.paddle1.setheading(UP)
         self.paddle1.goto(-480, 0)
-        self.paddle1.shapesize(0.3, 4.3)
+        self.paddle1.shapesize(0.6, 4.3)
         self.paddle1.color("white")
         self.paddle1.speed(0)
 
@@ -67,7 +67,7 @@ class Paddle:
         self.paddle2.speed(0)
         self.paddle2.setheading(UP)
         self.paddle2.goto(470, 0)
-        self.paddle2.shapesize(0.3, 4.3)
+        self.paddle2.shapesize(0.6, 4.3)
         self.paddle2.color("white")
         self.paddle2.speed(0)
 
